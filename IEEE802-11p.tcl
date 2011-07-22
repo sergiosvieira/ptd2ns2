@@ -8,6 +8,7 @@ Phy/WirelessPhyExt set freq_                    5.9e+9
 Phy/WirelessPhyExt set noise_floor_             1.26e-13    ;#-99 dBm for 10MHz bandwidth
 Phy/WirelessPhyExt set L_                       1.0         ;#default radio circuit gain/loss
 Phy/WirelessPhyExt set PowerMonitorThresh_      6.310e-14   ;#-102dBm power monitor  sensitivity
+#Phy/WirelessPhyExt set PowerMonitorThresh_      5.7685e-11   ;#power monitor  sensitivity 400m
 Phy/WirelessPhyExt set HeaderDuration_          0.000040    ;#40 us
 Phy/WirelessPhyExt set BasicModulationScheme_   0
 Phy/WirelessPhyExt set PreambleCaptureSwitch_   1
